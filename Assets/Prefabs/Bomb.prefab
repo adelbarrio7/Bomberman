@@ -69,11 +69,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d97a40d19672da34fbf3d03cba5b139c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gridOffset: 4
+  spawnHeight: 2
   sphereCastRad: 1.6
   layerMask:
     serializedVersion: 2
     m_Bits: 55
-  range: 0
+  range: 100
   explosionTimer: 2
 --- !u!95 &7616583663813483900
 Animator:
