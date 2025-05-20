@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: b18a526344cfbf04e814bcbdb72d61fb
+  productGUID: c7e29bea6e685a24eaa5d8b5a391364e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -915,11 +915,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 90ace5d6-0deb-4fa3-b0de-ae0c26fe3435
+  cloudProjectId: 505a9c1e-c1dc-4be6-8269-ae15dd82d4b4
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Bomberman
-  organizationId: unity_f0469df085c4761fa83e
+  organizationId: stlntl13
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

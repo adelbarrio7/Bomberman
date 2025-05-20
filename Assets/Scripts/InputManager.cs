@@ -1,23 +1,31 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
-
+using static UnityEngine.InputSystem.InputAction;
 
 public class InputManager : MonoBehaviour
 {
-    InputSystem_Actions actions;
+    
+    
 
     public Vector2 moveDir;
 
-    [HideInInspector] public UnityEvent OnBombPressed;
+    [HideInInspector]public UnityEvent onBombP;
 
-    void Start()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+
+    public void OnAttack(CallbackContext context)
     {
-        actions = new InputSystem_Actions();
-        actions.Enable();
-        actions.Player.Move.performed += i => moveDir = i.ReadValue<Vector2>();
-        actions.Player.Move.canceled += i => moveDir = Vector2.zero;
-        actions.Player.Attack.performed += i => OnBombPressed?.Invoke();
+        if (context.performed) onBombP?.Invoke();
     }
+
+    public void OnMove(CallbackContext context)
+    {
+        if (context.performed) moveDir = context.ReadValue<Vector2>();
+        else if(context.canceled) moveDir = Vector2.zero;
+    }
+    // Update is called once per frame
+    
+
 }

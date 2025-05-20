@@ -27,7 +27,7 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -244,7 +244,7 @@
                 },
                 {
                     "name": "1D Axis",
-                    "id": "b9d13561-45b8-442d-b807-64cdcb68cb30",
+                    "id": "5e5fd839-7c21-478a-8348-950e1974db5b",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -255,7 +255,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "c7885006-5442-402d-8678-1886f9d95dd9",
+                    "id": "d2f4fdb2-28e9-4f5c-9b23-a464702d9751",
                     "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
@@ -266,7 +266,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "08ac8709-a9dd-4ff6-9c57-de77a537b191",
+                    "id": "a43ba2d8-8746-42c8-8906-2790b1246b10",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
